@@ -1,5 +1,7 @@
-public class Main {
-    public static void main(String[] args) {
+public class Main
+{
+    public static void main(String[] args)
+    {
         Dog dog1 = new Dog("Fang", 5, "Husky", 80);
         Dog dog2 = new Dog("Piper", 3, "Australian Shepherd", 45);
         Dog dog3 = new Dog("Rover", 1, "Golden Retriever", 20);
@@ -12,5 +14,5 @@ public class Main {
         System.out.println(dog3.toString());
         System.out.println();
         Dog.getDogs();
-    }
-}
+    }//End main
+}//End main class
